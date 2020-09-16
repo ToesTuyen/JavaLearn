@@ -1,0 +1,47 @@
+1 Base từ nhánh master tạo một branch tên 'ListName'
+	trong nhánh đó sẽ chứa project bao gồm class có chức năng đọc 
+
+2 Tạo 1 project dựa vào danh sách cho trước thực hiện :
+ - Fix font danh sách tên trong lớp theo chuẩn như sau:
+	+ xóa bỏ dâu cách thừa trước, sau, giữa
+	+ sắp xếp danh sách theo tên
+
+	ví dụ chuẩn hóa chuỗi:
+		Nguyen danh tuyen-> Nguyen Danh Tuyen
+		Nguyên danh tuyên-> Nguyen Danh Tuyen
+		Nguyễn danh tuyên-> Nguyen Danh Tuyen
+		Nguyễn Đanh Đức> Nguyen Danh Duc
+		Nguyên    danh    Tuyen -> Nguyen Danh Tuyen
+
+3. Đẩy code lên Branch 'ListName'
+4. Keyword gợi ý
+- câu lệnh trong git
+- chuẩn hóa chuỗi
+- Java String
+- Sort by String
+
+***Danh sách cho trước***
+
+Hoàng   đức   anh
+Lưu trang   Anh
+   Phạm Hoàng   Anh
+Phạm Thị Hiền Anh
+   Phạm Khắc     Việt Anh
+Đỗ    Hoàng Gia Bảo
+    Trần Thị minh   châu
+Tăng  phương Chi
+Gan   Feng Du
+  Phạm Tiến Dũng
+Nguyễn    Thái Dương
+Trần   An Dương
+Mạc   Trung Đức
+Vũ Hương Giang
+Nguyễn Thị Ngân Hà
+  Nguyễn Lê Hiếu
+    Phạm xuân Hòa
+Khoa minh Hoàng
+Nguyễn hữu Hiệp hoàng
+Nguyễn mạnh Hùng
+Nguyễn vũ gia hưng
+
+
