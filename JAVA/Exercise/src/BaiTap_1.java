@@ -1,3 +1,5 @@
+import Model.Student;
+
 import java.util.Scanner;
 
 public class BaiTap_1 {
@@ -5,7 +7,7 @@ public class BaiTap_1 {
         Scanner input = new Scanner(System.in);
         boolean check = false;
         int number = 0;
-
+        Student student = new Student("Tuyen");
         while (!check) {
             System.out.print(" ");
             try {
