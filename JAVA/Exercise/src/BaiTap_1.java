@@ -20,13 +20,13 @@ public class BaiTap_1 {
     }
 
     public static int totalNumber(int number) {
-        int T = 0;
+        int sum = 0;
 
         while (number > 0) {
-            T += number % 10;
+            sum += number % 10;
             number /= 10;
         }
-        return (T);
+        return (sum);
     }
 
     //Function tests prime numbers
