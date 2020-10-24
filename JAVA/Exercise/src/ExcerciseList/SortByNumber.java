@@ -1,0 +1,52 @@
+package ExcerciseList;
+
+import java.util.*;
+
+public class SortByName {
+    public static void main(String[] args) {
+        List<String> listUnSort = initializeByName();
+        showList(listUnSort);
+        List<String> listSort = sortByName(listUnSort);
+        showList(listSort);
+    }
+    public static List<Integer> initializeByNumber() {
+        Integer[] arr = {9,10,11,3,4};
+        List<Integer> listName = new ArrayList<>(Arrays.asList(arr));
+        listName.add(0);
+        listName.add(2);
+        return listName;
+    }
+
+    public static List<String> initializeByName() {
+        String[] arr = {"Nguyen Van C", "Nguyen Van B", "Nguyen Van A", "Nguyen Van F"};
+        List<String> listName = new ArrayList<>(Arrays.asList(arr));
+        listName.add("Nguyen Van E");
+        listName.add("Nguyen Van D");
+        return listName;
+    }
+
+    public static void showList(List<String> listName) {
+        System.out.println("__________________SHOW__________________");
+        for (String name : listName) {
+            System.out.println(name);
+        }
+    }
+
+    public static List<String> sortByName(List<String> listName) {
+        listName.sort(new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return o2.compareTo(o1);
+            }
+        });
+
+//        Collections.sort(listName, new Comparator<String>() {
+//            @Override
+//            public int compare(String o1, String o2) {
+//                return o1.compareTo(o2);
+//            }
+//        });
+
+        return listName;
+    }
+}
