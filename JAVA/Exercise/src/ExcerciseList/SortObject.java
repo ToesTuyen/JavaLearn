@@ -2,7 +2,7 @@ package ExcerciseList;
 
 import java.util.*;
 
-public class SortByName {
+public class SortObject {
     public static void main(String[] args) {
         List<String> listUnSort = initializeByName();
         showList(listUnSort);
