@@ -1,13 +1,23 @@
-package ExcerciseList;
+package interface_list.practice_list;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 
-public class SortObject {
+public class SortByNumber {
     public static void main(String[] args) {
         List<String> listUnSort = initializeByName();
         showList(listUnSort);
         List<String> listSort = sortByName(listUnSort);
         showList(listSort);
+    }
+    public static List<Integer> initializeByNumber() {
+        Integer[] arr = {9,10,11,3,4};
+        List<Integer> listName = new ArrayList<>(Arrays.asList(arr));
+        listName.add(0);
+        listName.add(2);
+        return listName;
     }
 
     public static List<String> initializeByName() {
